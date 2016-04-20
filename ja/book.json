@@ -1,9 +1,0 @@
-{ 
-	"plugins" : 
-    [
-        "advanced-emoji"
-    ],
-    "pluginsConfig": 
-    {
-    }
-}

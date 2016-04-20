@@ -1,0 +1,18 @@
+{ 
+    "plugins" : 
+    [
+        "advanced-emoji",
+        "disqus"
+    ],
+    "pluginsConfig": 
+    {
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true
+        },
+        "disqus": {
+            "shortName": "supersuraccoon-gitbook"
+        }
+    }
+}
