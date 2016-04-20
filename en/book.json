@@ -4,8 +4,9 @@
 	"styles": 
 	{
     },
-    "plugins": 
+    "plugins" : 
     [
+        "advanced-emoji"
     ],
     "pluginsConfig": 
     {
