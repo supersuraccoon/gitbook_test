@@ -1,9 +1,4 @@
 { 
-	"title": "Title Gitbook Test EN",
-	"description": "Description Gitbook Test EN",
-	"styles": 
-	{
-    },
     "plugins" : 
     [
         "advanced-emoji"
