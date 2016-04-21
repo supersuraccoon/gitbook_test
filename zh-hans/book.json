@@ -1,0 +1,15 @@
+{ 
+    "plugins" : 
+    [
+        "advanced-emoji",
+        "disqus",
+        "-search",
+        "search-pro"
+    ],
+    "pluginsConfig": 
+    {
+        "search-pro": {
+            "cutWordLib": "nodejieba"
+        }
+    }
+}

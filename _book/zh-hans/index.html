@@ -29,11 +29,19 @@
         
     
         
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search-pro/search-pro.css">
         
     
         
-        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-mermaid-compat/mermaid/mermaid.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
         
     
         
@@ -49,7 +57,8 @@
     
     
 
-        
+        <script src="gitbook/plugins/gitbook-plugin-mermaid-compat/mermaid/mermaid.min.js"></script>
+<link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-chart/c3/c3.min.css"><script src="gitbook/plugins/gitbook-plugin-chart/c3/d3.min.js"></script><script src="gitbook/plugins/gitbook-plugin-chart/c3/c3.min.js"></script>
     </head>
     <body>
         
@@ -59,7 +68,7 @@
         data-chapter-title="介绍"
         data-filepath="README.md"
         data-basepath="."
-        data-revision="Wed Apr 20 2016 17:54:00 GMT+0800 (CST)"
+        data-revision="Thu Apr 21 2016 09:24:11 GMT+0800 (CST)"
         data-innerlanguage="zh-hans">
     
 
@@ -172,11 +181,11 @@
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    <script src="gitbook/plugins/gitbook-plugin-search-pro/search-pro.js"></script>
     
 
     
-    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    <script src="gitbook/plugins/gitbook-plugin-mermaid-compat/book/plugin.js"></script>
     
 
     
@@ -193,7 +202,7 @@
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"disqus":{"shortName":"supersuraccoon-gitbook","useIdentifier":false},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    var config = {"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"disqus":{"shortName":"supersuraccoon-gitbook","useIdentifier":false},"advanced-emoji":{"embedEmojis":false},"todo":{},"emphasize":{},"katex":{},"mermaid-compat":{},"chart":{},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{},"search-pro":{"cutWordLib":"nodejieba"}};
     gitbook.start(config);
 });
 </script>

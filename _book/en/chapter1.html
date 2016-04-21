@@ -29,6 +29,18 @@
         
     
         
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-katex/katex.min.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-mermaid-compat/mermaid/mermaid.css">
+        
+    
+        
         <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
         
     
@@ -49,7 +61,8 @@
     <link rel="prev" href="./index.html" />
     
 
-        
+        <script src="gitbook/plugins/gitbook-plugin-mermaid-compat/mermaid/mermaid.min.js"></script>
+<link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-chart/c3/c3.min.css"><script src="gitbook/plugins/gitbook-plugin-chart/c3/d3.min.js"></script><script src="gitbook/plugins/gitbook-plugin-chart/c3/c3.min.js"></script>
     </head>
     <body>
         
@@ -59,7 +72,7 @@
         data-chapter-title="First Chapter"
         data-filepath="chapter1.md"
         data-basepath="."
-        data-revision="Wed Apr 20 2016 17:54:00 GMT+0800 (CST)"
+        data-revision="Thu Apr 21 2016 09:24:10 GMT+0800 (CST)"
         data-innerlanguage="en">
     
 
@@ -143,7 +156,126 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="chapter-1">chapter 1</h1>
+                        <h1 id="chapter-1">Chapter 1</h1>
+<h3 id="headers">Headers</h3>
+<h1 id="this-is-an-h1-tag">This is an <code>&lt;h1&gt;</code> tag</h1>
+<h2 id="this-is-an-h2-tag">This is an <code>&lt;h2&gt;</code> tag</h2>
+<h3 id="this-is-an-h3-tag">This is an <code>&lt;h3&gt;</code> tag</h3>
+<h3 id="emphasis">Emphasis</h3>
+<p><em>This text will be italic</em>
+<em>This will also be italic</em>
+<strong>This text will be bold</strong>
+<strong>This will also be bold</strong>
+<em>You <strong>can</strong> combine them</em></p>
+<h3 id="lists">Lists</h3>
+<p>Unordered</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ol>
+<h3 id="images">Images</h3>
+<p><img src="img/cover_small.jpg" alt="img"></p>
+<h3 id="links">Links</h3>
+<p><a href="http://github.com" target="_blank">GitHub</a></p>
+<h3 id="blockquotes">Blockquotes</h3>
+<p>As Kanye West said:</p>
+<blockquote>
+<p>We&apos;re living the future so
+the present is our past.</p>
+</blockquote>
+<h3 id="footnote">Footnote</h3>
+<p>hello<sup><a href="#fn_hello" id="reffn_hello">hello</a></sup></p>
+<h3 id="tables">Tables</h3>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inline-code">Inline code</h3>
+<p>I think you should use an<code>&lt;addr&gt;</code> element here instead.</p>
+<h3 id="syntax-highlighting">Syntax highlighting</h3>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fancyAlert</span>(<span class="hljs-params">arg</span>) </span>{
+  <span class="hljs-keyword">if</span>(arg) {
+    $.facebox({div:<span class="hljs-string">&apos;#foo&apos;</span>})
+  }
+}
+</code></pre>
+<h3 id="gitbookplugintodo"><a href="https://plugins.gitbook.com/plugin/todo" target="_blank">gitbook-plugin-todo</a></h3>
+<ul>
+<li style="list-style: none"><input type="checkbox" disabled="disabled" checked="checked"> this is a complete item</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled"> this is an incomplete item</li>
+</ul>
+<h3 id="gitbookpluginadvancedemoji"><a href="https://plugins.gitbook.com/plugin/advanced-emoji" target="_blank">gitbook-plugin-advanced-emoji</a></h3>
+<p><img align="absmiddle" alt=":bowtie:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/bowtie.png" title=":bowtie:">
+<img align="absmiddle" alt=":smile:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/smile.png" title=":smile:">
+<img align="absmiddle" alt=":laughing:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/laughing.png" title=":laughing:">
+<img align="absmiddle" alt=":blush:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/blush.png" title=":blush:">
+<img align="absmiddle" alt=":smiley:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/smiley.png" title=":smiley:">
+<img align="absmiddle" alt=":relaxed:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/relaxed.png" title=":relaxed:">
+<img align="absmiddle" alt=":smirk:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/smirk.png" title=":smirk:">
+<img align="absmiddle" alt=":heart_eyes:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/heart_eyes.png" title=":heart_eyes:">
+<img align="absmiddle" alt=":kissing_heart:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/kissing_heart.png" title=":kissing_heart:">
+<img align="absmiddle" alt=":kissing_closed_eyes:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/kissing_closed_eyes.png" title=":kissing_closed_eyes:">
+<img align="absmiddle" alt=":flushed:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/flushed.png" title=":flushed:">
+<img align="absmiddle" alt=":older_woman:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/older_woman.png" title=":older_woman:">
+<img align="absmiddle" alt=":older_man:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/older_man.png" title=":older_man:">
+<img align="absmiddle" alt=":person_with_blond_hair:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/person_with_blond_hair.png" title=":person_with_blond_hair:">
+<img align="absmiddle" alt=":man_with_gua_pi_mao:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/man_with_gua_pi_mao.png" title=":man_with_gua_pi_mao:"></p>
+<blockquote>
+<p><a href="http://www.emoji-cheat-sheet.com/" target="_blank">emoji-cheat-sheet</a></p>
+</blockquote>
+<h3 id="gitbookpluginmermaidcompat"><a href="https://plugins.gitbook.com/plugin/mermaid-compat" target="_blank">gitbook-plugin-mermaid-compat</a></h3>
+<div class="mermaid">
+graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</div>
+
+<h3 id="gitbookpluginkatex"><a href="https://plugins.gitbook.com/plugin/katex" target="_blank">gitbook-plugin-kaTex</a></h3>
+<p>Inline math: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int_{-\infty}^\infty g(x) dx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.805em;"></span><span class="strut bottom" style="height:1.219451em;vertical-align:-0.414451em;"></span><span class="base textstyle uncramped"><span class="mop"><span class="op-symbol small-op mop" style="margin-right:0.19445em;top:-0.0005599999999999772em;">&#x222B;</span><span class="vlist"><span style="top:0.35612em;margin-left:-0.19445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord">&#x2212;</span><span class="mord mathrm">&#x221E;</span></span></span></span><span style="top:-0.41900000000000004em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathrm">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></p>
+<p>Block math:
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>&#x222B;</mo><mrow><mo>&#x2212;</mo><mi mathvariant="normal">&#x221E;</mi></mrow><mi mathvariant="normal">&#x221E;</mi></msubsup><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">
+\int_{-\infty}^\infty g(x) dx
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.36em;"></span><span class="strut bottom" style="height:2.330581em;vertical-align:-0.970581em;"></span><span class="base displaystyle textstyle uncramped"><span class="mop"><span class="op-symbol large-op mop" style="margin-right:0.44445em;top:-0.0011249999999999316em;">&#x222B;</span><span class="vlist"><span style="top:0.91225em;margin-left:-0.44445em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord">&#x2212;</span><span class="mord mathrm">&#x221E;</span></span></span></span><span style="top:-0.974em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord mathrm">&#x221E;</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span></span></span></p>
+<h3 id="gitbookpluginemphasize"><a href="https://plugins.gitbook.com/plugin/emphasize" target="_blank">gitbook-plugin-emphasize</a></h3>
+<p>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted !</span></p>
+<p>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted with <strong>markdown</strong>!</span></p>
+<p>This text is <span class="pg-emphasize pg-emphasize-green" style="">highlighted in green!</span></p>
+<p>This text is <span class="pg-emphasize pg-emphasize-red" style="">highlighted in red!</span></p>
+<p>This text is <span class="pg-emphasize pg-emphasize-yellow" style="background: #ff0000;">highlighted with a custom color!</span></p>
+<h3 id="gitbookpluginchart"><a href="gitbook-plugin-chart">gitbook-plugin-chart</a></h3>
+<p><div>
+                    <div id="plugin-chart-1"></div>
+                    <script>c3.generate({"data":{"type":"bar","columns":[["data1",30,200,100,400,150,250],["data2",50,20,10,40,15,25]],"axes":{"data2":"y2"}},"axis":{"y2":{"show":true}},"bindto":"#plugin-chart-1"});</script>
+                </div></p>
+<blockquote id="fn_hello">
+<sup>hello</sup>. hi<a href="#reffn_hello" title="Jump back to footnote [hello] in the text."> &#x21A9;</a>
+</blockquote>
 
                     
                     </section>
@@ -172,6 +304,10 @@
     
 
     
+    <script src="gitbook/plugins/gitbook-plugin-mermaid-compat/book/plugin.js"></script>
+    
+
+    
     <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
     
 
@@ -193,7 +329,7 @@
 
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"disqus":{"shortName":"supersuraccoon-gitbook","useIdentifier":false},"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    var config = {"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"disqus":{"shortName":"supersuraccoon-gitbook","useIdentifier":false},"advanced-emoji":{"embedEmojis":false},"todo":{},"emphasize":{},"katex":{},"mermaid-compat":{},"chart":{},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
     gitbook.start(config);
 });
 </script>
